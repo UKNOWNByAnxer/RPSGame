@@ -85,7 +85,11 @@ body {
 .result {
     text-align: center;
     font-size: 2rem;
-    color: #7d2ae8;
+    background: linear-gradient(270deg, #7d2ae8, #0dcdff);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    font-weight: 600;
     margin-top: 1.5rem;
 }
 
@@ -127,6 +131,7 @@ body {
     -webkit-background-clip: text;
     color: transparent;
     margin-top: 1rem;
+    font-weight: 500;
     font-size: 1.23rem;
     pointer-events: none;
 }
